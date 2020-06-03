@@ -12,3 +12,4 @@ git:
 - url: https://github.com/flant/werf.git
   add: /
   to: /werf
+  commit: 07bd04e9e2ad4fb03136943a2bbcb8aa50ff7471
