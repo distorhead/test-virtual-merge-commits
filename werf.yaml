@@ -1,0 +1,14 @@
+configVersion: 1
+project: test-virtual-merge-commits
+---
+image: one
+from: ubuntu:18.04
+shell:
+  install:
+  - apt update && apt install -y vim
+git:
+- add: /
+  to: /app
+- url: https://github.com/flant/werf.git
+  add: /
+  to: /werf
