@@ -17,7 +17,7 @@ jobs:
       - name: Converge
         uses: flant/werf-actions/converge@master
         env:
-          WERF_LOG_DEBUG: "on"
+          WERF_DEBUG: "true"
         with:
           env: production
           kube-config-base64-data: ${{ secrets.KUBE_CONFIG_BASE64_DATA }}
