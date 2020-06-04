@@ -5,7 +5,7 @@ image: one
 from: ubuntu:18.04
 shell:
   install:
-  - apt update && apt install -y vim
+  - echo done
 git:
 - add: /
   to: /app
