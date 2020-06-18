@@ -4,6 +4,8 @@ project: test-virtual-merge-commits
 image: one
 from: ubuntu:18.04
 shell:
+  beforeInstall:
+  - echo beforeInstall
   install:
   - echo done
 git:
