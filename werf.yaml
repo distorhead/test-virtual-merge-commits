@@ -4,8 +4,10 @@ project: test-virtual-merge-commits
 image: one
 from: ubuntu:18.04
 shell:
+  beforeInstall:
+  - echo beforeInstall
   install:
-  - apt update && apt install -y vim
+  - echo done
 git:
 - add: /
   to: /app
