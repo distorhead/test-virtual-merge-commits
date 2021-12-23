@@ -28,4 +28,5 @@ jobs:
 
       - name: Converge
         run: |
-          cat FILE_FROM_MASTER
+          cat FILE1_FROM_MASTER
+          cat FILE2_FROM_MASTER
